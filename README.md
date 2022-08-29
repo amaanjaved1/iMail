@@ -1,10 +1,25 @@
-# Mail Simulator --- WORK IN PROGRESS NEED TO (add CSS/Bootstrap/Tailwind)
+# Email Website
+Online Email (simulator) platform to send and receive emails to other users
 
-## PURPOSE:
-Email website simulator
+## Description
+### Tech Stack
+- Javascript
+- Django
+- HTML/CSS
+- SQL
+- Python
 
-## HOW TO USE: 
-Download repository and run as any other django application. Start by registering for an account!
+### Challenges
+- Using a single route to display all the information and making calls to the database to receive mailbox info
 
-## TECH STACK: 
-Django, Javascript, Python, HTML/CSS, Bootstrap
+## How To Run
+### Requirements
+1. Install Python (https://python.org/download/)
+1. Install SetupTools ($ pip install setuptools)
+1. Install pip ($ easy_install pip)
+1. Install Django ($ pip install django)
+### How to run
+1. $ cd mail
+1. $ python3 manage.py runserver
+
+# Features
