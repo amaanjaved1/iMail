@@ -19,6 +19,7 @@ Online Email (simulator) platform to send and receive emails to other users
 1. Install Django ($ pip install django)
 
 ### How to run
+(Note: Emails can only be sent to accounts which have registered on the platform)
 1. $ cd mail
 1. $ python3 manage.py runserver
 
